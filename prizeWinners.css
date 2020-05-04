@@ -1,0 +1,19 @@
+body {
+    background-color: bisque;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    color: black;
+}
+h1, h2 {
+    color: darkred;
+}
+ul {
+    color: darkslategray;
+}
+#peopleWinner {
+    color: rgb(60, 11, 85);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+}
