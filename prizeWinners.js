@@ -14,8 +14,8 @@ prizeList.forEach(prize => {
     prizeContent.innerHTML += `<li>a ${prize}</li>`;
 });
 
-let winnerName = peopleList[Math.round(Math.random() * 9)];
-let prizeName = prizeList[Math.round(Math.random() * 4)];
+let winnerName = peopleList[Math.floor(Math.random() * 10)];
+let prizeName = prizeList[Math.floor(Math.random() * 5)];
 
 winner.innerHTML = winnerName;
 prize.innerHTML = `${winnerName} receives a ${prizeName}`;
